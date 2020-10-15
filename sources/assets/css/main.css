@@ -34,6 +34,7 @@ body {
 
 /* Header */
 #main-header {
+  position: relative;
   height: 560px;
   background-color: red;
   background-image: url(../img/header_background.png);
@@ -61,6 +62,8 @@ body {
   background-color: var(--main-color);
   height: 80px;
   width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 #links-bar ul {
