@@ -9,22 +9,29 @@
   </head>
   <body>
     <header id="main-header">
-      <div id="logo-section">
-        <img src="" alt="Image représentant le logo du site" />
-        <h1>La Savoie</h1>
-        <h2>Des paysages à pertes de vue ...</h2>
+      <div id="logo-section" class="flex flexCenter">
+        <img
+          src="assets/img/logo.png"
+          alt="Image représentant le logo du site"
+        />
+        <div>
+          <h1>La Savoie</h1>
+          <h2>Des paysages à pertes de vue ...</h2>
+        </div>
       </div>
-      <nav id="links-bar">
-        <ul>
-          <li class="active-link"><a href="index.html">Accueil</a></li>
-          <li><a href="#undefinedlink">Liens incontournables</a></li>
-          <li><a href="#undefinedlink">Marchés & Foires</a></li>
-          <li><a href="#undefinedlink">Actualités</a></li>
-        </ul>
-      </nav>
     </header>
 
-    <div id="page-intro">
+    <!-- Problem in header section for in correct visual bug -->
+    <nav id="links-bar" class="flex flexCenter">
+      <ul>
+        <li class="active-link"><a href="index.html">Accueil</a></li>
+        <li><a href="#undefinedlink">Liens incontournables</a></li>
+        <li><a href="#undefinedlink">Marchés & Foires</a></li>
+        <li><a href="#undefinedlink">Actualités</a></li>
+      </ul>
+    </nav>
+
+    <div id="page-intro" class="flex flexCenter">
       <p>
         Découvre à travers, notre site internet, l'histoire du département de la
         "Savoie" ressources, actualités et autres informations utiles.
@@ -66,12 +73,12 @@
       <img src="" alt="Image du paysage de la savoie" />
     </section>
 
-    <footer id="main-footer">
-      <img src="" alt="Logo du site" />
-      <p>
+    <footer id="main-footer" class="flex flexCenter">
+      <img src="assets/img/min-logo.png" alt="Logo du site" />
+      <h3>
         Coypright 2020 - Website is created by The Creative Dev - All rights
         reserved
-      </p>
+      </h3>
     </footer>
   </body>
 </html>
