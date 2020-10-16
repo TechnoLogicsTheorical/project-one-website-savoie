@@ -1,0 +1,28 @@
+#content-resume {
+  background-image: url(../img/articles/small_resume_vector.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 913px;
+  width: 95%;
+  position: relative;
+  margin-top: 100px;
+  float: right;
+}
+
+#content-resume .icon {
+  margin: 0 50px;
+  height: 250px;
+}
+
+#content-resume div h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: whitesmoke;
+  text-shadow: gray 0 0 5px;
+}
+
+#content-resume div p {
+  width: 80%;
+  font-size: 1.4rem;
+  margin-left: 50px;
+}

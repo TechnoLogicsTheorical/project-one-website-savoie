@@ -74,10 +74,6 @@ body {
   bottom: 0;
 }
 
-#links-bar ul {
-  float: right;
-}
-
 #links-bar ul li a {
   text-decoration: none;
   color: white;
@@ -92,6 +88,7 @@ body {
 
 #links-bar a:hover {
   color: var(--secondary-color);
+  text-decoration: underline;
 }
 
 #links-bar li.active-link {
@@ -123,4 +120,9 @@ body {
 
 #main-footer h3 {
   margin: auto 25px;
+}
+
+.separator {
+  width: 80%;
+  margin: auto;
 }
