@@ -1,28 +1,49 @@
-#content-resume {
-  background-image: url(../img/articles/small_resume_vector.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 913px;
-  width: 95%;
-  position: relative;
-  margin-top: 100px;
-  float: right;
+#content-resume,
+#content-location,
+#content-meteo {
+  height: 620px;
+  margin: 150px auto;
 }
 
-#content-resume .icon {
-  margin: 0 50px;
-  height: 250px;
+.container-image {
+  background-color: var(--main-color);
+  width: 50%;
+  height: 100%;
 }
 
-#content-resume div h2 {
-  font-size: 2rem;
-  margin-bottom: 25px;
-  color: whitesmoke;
-  text-shadow: gray 0 0 5px;
-}
-
-#content-resume div p {
+.container-image img {
   width: 80%;
-  font-size: 1.4rem;
-  margin-left: 50px;
+  border-radius: 50px;
+}
+
+.container-text {
+  background-color: var(--secondary-color);
+  width: 50%;
+  height: 100%;
+}
+
+.container-text h2 {
+  font-size: 48px;
+  color: white;
+  margin: 100px 0 50px 100px;
+}
+
+.container-text p {
+  margin: 50px 10%;
+}
+
+.btn-more {
+  width: 250px;
+  text-align: center;
+  padding: 10px 25px;
+  border: 3px solid white;
+  color: white;
+  text-decoration: none;
+  margin: auto 65%;
+  font-size: 36px;
+  transition: border-radius 0.6s;
+}
+
+.btn-more:hover {
+  border-radius: 50px;
 }

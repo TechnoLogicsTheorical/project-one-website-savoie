@@ -36,7 +36,6 @@ body {
 #main-header {
   position: relative;
   height: 560px;
-  background-color: red;
   background-image: url(../img/header_background.png);
   background-position: center;
   background-size: cover;
@@ -74,7 +73,7 @@ body {
   bottom: 0;
 }
 
-#links-bar ul li a {
+#links-bar a {
   text-decoration: none;
   color: white;
   padding: 20px 15px;
