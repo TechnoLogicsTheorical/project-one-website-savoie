@@ -1,0 +1,26 @@
+#container {
+  width: 95%;
+  margin: 150px auto;
+  flex-wrap: wrap;
+}
+
+article {
+  background-color: blue;
+  width: 520px;
+  height: 100%;
+  margin: 50px auto;
+}
+
+article h2,
+article address,
+article p {
+  margin: 25px;
+}
+
+.green {
+  background-color: var(--main-color);
+}
+
+.blue {
+  background-color: var(--secondary-color);
+}

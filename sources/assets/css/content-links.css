@@ -1,0 +1,25 @@
+#container {
+  width: 90%;
+  flex-wrap: wrap;
+  margin: 150px auto;
+}
+
+article {
+  background-color: blue;
+  width: 800px;
+  margin: 50px auto;
+}
+
+article h2 {
+  color: white;
+  font-size: 48px;
+  margin: 25px;
+}
+
+.green {
+  background-color: var(--main-color);
+}
+
+.blue {
+  background-color: var(--secondary-color);
+}

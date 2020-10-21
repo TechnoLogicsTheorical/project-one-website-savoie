@@ -7,13 +7,15 @@
 ### _Cahier des charges_
 
 - [x] Création de la page HTML "Accueil"
-- [ ] Design et mise en place du CSS
+- [x] Design et mise en place du CSS
 
-- [ ] Création de la page HTML "Liens incontournables"
-- [ ] Design et mise en place du CSS
+- [x] Création de la page HTML "Liens incontournables"
+- [x] Design et mise en place du CSS
 
-- [ ] Création de la page HTML "Marchés & Foires"
-- [ ] Design et mise en place du CSS
+- [x] Création de la page HTML "Marchés & Foires"
+- [x] Design et mise en place du CSS
 
-- [ ] Création de la page HTML "Actualités"
-- [ ] Design et mise en place du CSS
+- [x] Création de la page HTML "Actualités"
+- [x] Design et mise en place du CSS
+
+- [ ] Need responsive better ...
